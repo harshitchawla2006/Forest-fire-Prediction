@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Models and large files
+models/*.pkl
+*.csv
+*.h5
+*.pkl
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific (keep if you want to track models)
+# Uncomment these if you want to exclude models
+# !models/.gitkeep
