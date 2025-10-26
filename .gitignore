@@ -21,13 +21,21 @@ models/*.pkl
 *.h5
 *.pkl
 
-# Jupyter Notebook
+# Jupyter Notebooks - Exclude learning/practice notebooks
+Learnings/
+notebooks/
+
+# Other files
+api.py
+fl.py
+app.py
+widgets.py
+jinja.py
+classification.py
+
+# Jupyter Notebook checkpoints
 .ipynb_checkpoints
 
 # OS
 .DS_Store
 Thumbs.db
-
-# Project specific (keep if you want to track models)
-# Uncomment these if you want to exclude models
-# !models/.gitkeep
